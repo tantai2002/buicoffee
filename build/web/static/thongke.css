@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Florence, cursive;
+}
+
+body{
+    background-color: #d0caca;
+}
+
+body .backhome{
+    position: absolute;
+    top: 7%; 
+    left: 8%;
+    color: #000000;
+    text-decoration: none;
+}
+
+body .backhome:hover{
+    color: #3D3D3D;
+}
+
+body .backhome i{
+    font-size: 1.7rem;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.btnluachon{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.btnluachon form{
+    width: 48%;
+    margin-right: 2%;
+    display: flex;
+    
+}
+
+.btnluachon form input{
+    width: 40%;
+    margin-right: 5%;
+    padding: .1rem .2rem;
+    outline: none;
+}
+
+.btnluachon form button{
+    width: 55%;
+    height: 2rem;
+}
+
+.btnluachon > button{
+    width: 45%;
+    margin-left: 5%;
+}
+
+
+table {
+    width: 85%;
+    border-collapse: collapse; /* Gộp các đường viền ô */
+    margin: 20px auto; /* Khoảng cách trên và dưới bảng */
+}
+
+th, td {
+    padding: 12px; /* Khoảng cách trong các ô */
+    text-align: left; /* Canh trái nội dung */
+    border: 1px solid #5c5e5e; /* Đường viền mờ cho các ô */
+}
+
+thead {
+    background-color: #1e1f1f; /* Màu nền của tiêu đề bảng */
+    color: #ffff;
+}
+
+thead th{
+    text-align: center;
+}
+
+tbody{
+    background-color: #cccaca;
+}
+
+tbody td{
+    text-align: center;
+}
+
+tbody td:first-child{
+    width: 12%;
+}
+
+tbody td:nth-child(2){
+    width: 30%;
+}
+
+tbody td:nth-child(3){
+    width: 10%;
+}
+
+tbody td:nth-child(4){
+    width: 10%;
+}
+
+tbody td:nth-child(5){
+    width: 13%;
+}
+
+tbody td:last-child{
+    width: 25%;
+}
+

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #3f040d;
+    font-family: Florence, cursive;
+}
+
+.container .image{
+    width: 60%;
+    margin: 7.5rem auto;
+    margin-bottom: 3rem;
+}
+
+.container .image img{
+    width: 100%;
+}
+
+.container h2{
+    text-align: center;
+    color: #ffff;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.container .formInput{
+    margin: 0 auto;
+    width: 30%;
+    border: 2px solid #ffff;
+    color: #ffff;
+}
+
+.container .formInput .input-group{
+    padding: 2.5rem 0rem 1rem 5rem;
+}
+
+.container .formInput .input-group label{
+    margin-right: .5rem;
+}
+
+.container .formInput button{
+    width: 10rem;
+    /*height: 2.2rem;*/
+    margin: 2rem 33%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ffff;
+    color: #ffff;
+    font-size: 1.1rem;
+    padding: .5rem 0;
+}
+
+.container .formInput button:hover{
+    color: #3f040d;
+    background-color: #ffff;
+    font-weight: 700;
+    cursor: pointer;
+}
